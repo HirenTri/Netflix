@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image:url("assets/images/bg.jpg");
+    background-position: center center; 
+    background-size: max(1600px,100vw);
+    background-repeat: no-repeat;
+    
+    height: 110vh;
+    position: relative;
+    
+   
+}
+
+.main .box{
+   position: absolute;
+   top:0;
+   height:110vh;
+   width:100%;
+   opacity: 0.69;
+   background-color: black;
+   
+}
+.main .hero{
+    font-family: "Martel Sans", serif;
+     height: calc(100% - 100px);
+    font-style: normal;
+    display:flex;
+    align-items: center;
+    color:white;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 0px 30px;
+   
+}
+
+nav{
+
+    display: flex;
+    max-width: 60%;
+    height:100px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav img{
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(4) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(71, 70, 70);
+}
+.btn{
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 3px 8px;
+    color:white;
+    background-color:rgba(114, 109, 109, 0.37);
+    border-radius: 4px;
+    border:1px solid white;
+    cursor: pointer;
+     
+}
+.hero-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap:5px;
+}
+ .btn-red{
+    background-color: red;
+    padding:3px 20px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.main input{
+    padding: 6px 100px 6px 0px;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgba(19, 18, 18, 0.2);
+    border: 1px solid rgba(197, 192, 192, 0.5);
+    
+}
+
+  .btn-red-sm{
+    background-color:red;
+     
+}
+
+.faq{
+    color:white;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+    padding: 34px;
+}
+.faqbox svg{
+    filter:invert(1);
+}
+.faqbox:hover{
+    background-color: rgba(134, 131, 131, 0.397);
+}
+.faqbox{
+    display: flex;
+    padding:24px;
+    background-color: #2d2d2d;
+    color:white;
+    max-width: 60vw;
+    margin:15px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size:24px;
+    
+}
+footer{
+    color:white;
+    max-width:70vw;
+    margin:auto;
+    
+
+}
+
+.footer{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 2px;
+    
+
+}
+.trending {
+    color: white;
+    width: 60vw;
+    margin: auto; 
+    
+     
+}
+
+.trending_movies{
+    display:grid;
+    cursor: pointer;
+    grid-template-columns:1fr 1fr 1fr 1fr; 
+   
+    padding: 10px;  
+    
+     
+    
+
+}
+ 
+
+ 
+.Movies {
+    object-fit: cover;
+    overflow: hidden;
+     width: 198px;; 
+      
+     
+     
+  }
+.More_reason {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    
+}
+
+ 
+.reason_items{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #1e1426;
+    height: 100%;
+    border-radius: 10px;
+    align-items: flex-start;
+    padding: 8px;
+    position: relative;
+    margin: 10px;;
+    
+     
+    
+
+}
+.card-svg{
+    position: absolute;
+    top: 200px;  
+     right: 10px;
+     overflow: hidden;
+}
+.Reason2{
+    font-size:16px;
+    font-weight:400;
+    font-family: sans-serif;
+    color:
+    rgba(255, 255, 255, 0.7);
+}
+ 
+.questions{
+    padding:20px 0px;
+}
+.footer-items a{
+    color: white;
+    font-size:14px;
+}
+
+ .Reason_heading{
+    color:
+    rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 50px;
+   
+ }
+.footer-items{
+    display:flex;
+    flex-direction: column;
+   gap:5px;
+     
+
+
+}
+.Trending{
+    color:
+    rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding:20px 0px;
+     
+}
+ 
+ 
+  
+
+.slider {
+    display: flex;  
+    gap: 20px;
+  
+}
+
+.Reason{
+    color:
+    rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding:20px 0px;
+}
+.reason{
+    color:white;
+    max-width: 60vw;
+    margin: auto;
+    height: 400px;
+   
+    
+}
+ 
+
+.Movie_items{
+    border-radius: 6px;
+    
+}
+.btn_trend{
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color:rgba(114, 109, 109, 0.37);
+    border-radius: 4px;
+    border:1px solid white;
+    cursor: pointer;
+
+     
+}
+ 
